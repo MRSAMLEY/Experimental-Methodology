@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Student Login</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="login-box">
+    <div class="avatar"></div>
+    <form onsubmit="return login()">
+      <div class="input-group">
+        <label>Username</label>
+        <input type="text" id="username" required>
+      </div>
+      <div class="input-group">
+        <label>Student Card ID</label>
+        <input type="password" id="studentId" required>
+      </div>
+      <div class="options">
+        <label><input type="checkbox" id="remember"> Remember me</label>
+        <a href="#">Forgot ID?</a>
+      </div>
+      <button type="submit" class="login-btn">Login</button>
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
