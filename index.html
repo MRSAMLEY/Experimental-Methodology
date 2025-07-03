@@ -10,23 +10,28 @@
 <body>
   <div class="login-box">
     <div class="avatar"></div>
+    <h2 class="title">MR Sam</h2>
+
     <form onsubmit="return login()">
       <div class="input-group">
-        <label>Username</label>
+        <label for="username">Username</label>
         <input type="text" id="username" required>
       </div>
+
       <div class="input-group">
-        <label>Student Card ID</label>
+        <label for="studentId">Student Card ID</label>
         <input type="password" id="studentId" required>
       </div>
+
       <div class="options">
         <label><input type="checkbox" id="remember"> Remember me</label>
-        <a href="https://t.me/alsin_alsin_kh">Forgot ID?</a>
+        <a href="#">Forgot ID?</a>
       </div>
+
       <button type="submit" class="login-btn">Login</button>
     </form>
 
-    <hr style="margin: 30px 0;">
+    <hr>
 
     <!-- Google Sign-In -->
     <div id="g_id_onload"
