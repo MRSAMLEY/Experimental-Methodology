@@ -1,7 +1,11 @@
-body {
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
   font-family: 'Segoe UI', sans-serif;
+}
+
+body {
   height: 100vh;
   background: url('1.jpg') no-repeat center center / cover;
   display: flex;
@@ -9,65 +13,88 @@ body {
   align-items: center;
 }
 
-  
-  .login-box {
-    background: rgba(255, 255, 255, 0.1);
-    border-radius: 20px;
-    padding: 40px;
-    width: 320px;
-    backdrop-filter: blur(15px);
-    color: white;
-    box-shadow: 0 8px 32px rgba(0,0,0,0.3);
-    text-align: center;
-  }
-  
-  .avatar {
-    width: 80px;
-    height: 80px;
-    margin: 0 auto 20px;
-    background: url('https://cdn-icons-png.flaticon.com/512/149/149071.png') no-repeat center/cover;
-    border-radius: 50%;
-  }
-  
-  .input-group {
-    margin-bottom: 20px;
-    text-align: left;
-  }
-  
-  .input-group label {
-    font-size: 14px;
-    margin-bottom: 5px;
-    display: block;
-  }
-  
-  .input-group input {
-    width: 100%;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-  }
-  
-  .options {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 12px;
-    margin-bottom: 20px;
-  }
-  
-  .login-btn {
-    width: 100%;
-    padding: 12px;
-    background: linear-gradient(to right, #6a11cb, #2575fc);
-    border: none;
-    border-radius: 10px;
-    color: white;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background 0.3s;
-  }
-  
-  .login-btn:hover {
-    background: linear-gradient(to right, #5a0eb4, #1d61e4);
-  }
-  
+.login-box {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  padding: 40px;
+  width: 320px;
+  backdrop-filter: blur(15px);
+  color: white;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.avatar {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 20px;
+  background: url('https://cdn-icons-png.flaticon.com/512/149/149071.png') no-repeat center/cover;
+  border-radius: 50%;
+}
+
+.login-box h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  text-shadow: 1px 1px 2px #000000;
+}
+
+.input-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.input-group label {
+  font-size: 14px;
+  margin-bottom: 5px;
+  display: block;
+  color: #fff;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+.options a {
+  color: #eee;
+  text-decoration: none;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.login-btn:hover {
+  background: linear-gradient(to right, #5a0eb4, #1d61e4);
+}
+
+hr {
+  border: none;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  margin: 30px 0;
+}
+
+/* Google button alignment */
+.g_id_signin {
+  display: flex;
+  justify-content: center;
+}
