@@ -1,24 +1,5 @@
 //login with id and user
 const users = [
-  { username: "Sokpheng", id: "123@sokphengict" },
-  { username: "Boromey", id: "123@sokphengict" },
-  { username: "Peaktra", id: "123@sokphengict" },
-  { username: "Saem", id: "123@sokphengict" },
-  { username: "Sangyuth", id: "123@sokphengict" },
-  { username: "Channary", id: "123@sokphengict" },
-  { username: "Sreypenh", id: "123@sokphengict" },
-  { username: "Kimleang", id: "123@sokphengict" },
-  { username: "Sarorng", id: "123@sokphengict" },
-  { username: "Sreyleav", id: "123@sokphengict" },
-  { username: "Vuthysony", id: "123@sokphengict" },
-  { username: "Somapeavy", id: "123@sokphengict" },
-  { username: "Sela", id: "123@sokphengict" },
-  { username: "Nary", id: "123@sokphengict" },
-  { username: "Channa", id: "123@sokphengict" },
-  { username: "Visal", id: "123@sokphengict" },
-  { username: "Molina", id: "123@sokphengict" },
-  { username: "Sovanrachana", id: "123@sokphengict" },
-  { username: "Thida", id: "123@sokphengict" },
   { username: "Mrsamley", id: "123@mrsamley" },
   // Add more from your sheet
 ];
