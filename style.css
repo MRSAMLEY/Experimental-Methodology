@@ -35,7 +35,9 @@ body {
 .login-box h2 {
   margin-bottom: 20px;
   font-size: 24px;
-  text-shadow: 1px 1px 2px #ffffff;
+  text-shadow:
+    2px 2px 4px rgba(0, 0, 0, 0.6),
+    0 0 10px rgba(255, 255, 255, 0.2);
   background: linear-gradient(270deg, red, rgb(0, 157, 255), rgb(34, 0, 255), rgb(13, 13, 58), rgb(23, 15, 42), blue, violet, red);
   background-size: 1400% 1400%;
   -webkit-background-clip: text;
