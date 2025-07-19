@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="km">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>សេចក្តីជូនដំណឹង</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html, body {
+            height: 100%;
+            width: 100%;
+            font-family: 'Khmer OS Siemreap', Arial, sans-serif;
+            background-color: #000;
+        }
+
+        .background {
+            background-image: url('4bef881a-b980-46f1-b265-601407452a5b.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: #fff;
+            position: relative;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 1;
+        }
+
+        .content {
+            position: relative;
+            z-index: 2;
+            background-color: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(5px);
+            padding: 30px 40px;
+            border-radius: 15px;
+            max-width: 90%;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+        }
+
+        .content h1 {
+            font-size: 2rem;
+            margin-bottom: 15px;
+        }
+
+        .content p {
+            font-size: 1.2rem;
+            margin: 0;
+        }
+
+        @media (max-width: 600px) {
+            .content h1 {
+                font-size: 1.5rem;
+            }
+            .content p {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="background">
+        <div class="overlay"></div>
+        <div class="content">
+            <h1>អ្នកមិនបានភ្ជាប់ជាមួយមេតំណរឡើយ</h1>
+            <p>សូមធ្វើការទាក់ទងទៅម្ចាស់ Hosting</p>
+        </div>
+    </div>
+
+</body>
+</html>
